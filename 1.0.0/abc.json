@@ -1,0 +1,17 @@
+{
+    "name": "searchText",
+    "comName":"SearchText",
+    "version": "1.0",
+    "desc": "",
+    "tag":"search,searchText,highlight,搜索文本，js搜索",
+    "githubName":"junlonghuo",
+    "author": {
+        "name": "骏隆",
+        "email": "junlong.hjl@alibaba-inc.com",
+        "page": ""
+    },
+	"flexComboPort":"8081",
+	"reserveServerPort":"8080",
+    "type": "kissy-gallery",
+    "type-url": "http://gallery.kissyui.com/guide"
+}
