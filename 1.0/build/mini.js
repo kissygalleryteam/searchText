@@ -139,7 +139,9 @@ KISSY.add('gallery/searchText/1.0/index',function (S, Node,Base) {
             };
         },
         search:function(keyword){
-            this.container.searchText(keyword,this.defaultConfig);
+            S.each(this.container,function(item){
+                S.all(item).searchText(keyword,this.defaultConfig);
+            })
         }
     }, {ATTRS : /** @lends SearchText*/{
         container:{
@@ -167,7 +169,7 @@ KISSY.add('gallery/searchText/1.0/index',function (S, Node,Base) {
          * 替换文本颜色
          * */
         markColor:{
-            value:red
+            value:'red'
         },
         /**
          * 没有结果时是否提示

@@ -152,6 +152,12 @@
                 <p>
                     则表示class中有test样式的所有标签下的“空姐”，“凤姐”，“芙蓉姐”文字用蓝色高亮标注。<br>
                     此方法中，有一个参数是必须的，就是你要搜索的关键字字符串（默认状况下，使用空格隔开可表示多个关键字），还有一个可选参数，可自定义一些样式，关键字处理方法，回调函数等，具体参见本文下一部分。</p>
+                <p>还可以使用对象实例化的方式调用，如：</p>
+                <div class="zxx_code">
+                    <pre>var searchObj=new searchText({container:'#container',markColor:'blue'});
+                          searchObj.search("酒店");
+                    </pre>
+                </div>
                 <h3>
                     三、一些可选参数</h3>
                 <p>
