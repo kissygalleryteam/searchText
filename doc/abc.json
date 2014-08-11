@@ -1,9 +1,9 @@
 {
-    "name": "searchText",
-    "comName":"SearchText",
+    "name": "searchtext",
+    "comName":"Searchtext",
     "version": "2.0.0",
     "desc": "",
-    "tag":"search,searchText,highlight,js搜索",
+    "tag":"search,searchtext,highlight,js搜索",
     "githubName":"junlonghuo",
     "author": {
         "name": "骏隆",
