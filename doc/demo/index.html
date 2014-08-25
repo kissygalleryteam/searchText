@@ -252,7 +252,7 @@
         S.config({
             packages:[
                 {
-                    name:"kg/searchText/2.0.0",
+                    name:"kg/searchtext/2.0.0",
                     path:srcPath,
                     charset:"utf-8",
                     ignorePackageNameInUri:true
@@ -261,7 +261,7 @@
         });
     }
 
-    S.use('kg/searchText/2.0.0/index,event', function (S, SearchText,Event) {
+    S.use('kg/searchtext/2.0.0/index,event', function (S, SearchText,Event) {
         Event.on('#search','click',function(){
             S.one('#content').searchText(S.one('#keyword').val());
         })
